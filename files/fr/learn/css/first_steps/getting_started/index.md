@@ -36,7 +36,7 @@ Dans cet article nous vous montrons comment appliquer un style CSS à un documen
 
 ## D'abord un peu de HTML
 
-Notre point de départ est un document HTML. Pour suivre la leçon en travaillant sur votre ordinateur, vous pouvez copier le code ci-dessous. Collez le dans un fichier en utilisant un éditeur de code, puis sauvegardez le sous le nom `index.html`.
+Notre point de départ est un document HTML. Pour suivre la leçon en travaillant sur votre ordinateur, vous pouvez copier le code ci-dessous. Collez-le dans un fichier en utilisant un éditeur de code, puis sauvegardez-le sous le nom `index.html`.
 
 ```html
 <!doctype html>
@@ -75,7 +75,7 @@ Notre point de départ est un document HTML. Pour suivre la leçon en travaillan
 
 Pour commencer, on doit signaler au document HTML que nous souhaitons utiliser des règles CSS. Vous rencontrerez trois possibilités pour appliquer CSS à un document HTML. Nous nous contenterons de présenter la méthode la plus utilisée — créer un lien vers la feuille de style CSS depuis l'en-tête du document HTML.
 
-Avec votre éditeur de code, dans le dossier où se trouve le document HTML, créez un fichier et sauvegardez le sous le nom `styles.css`. L'extension `.css` indique que c'est un fichier CSS.
+Avec votre éditeur de code, dans le dossier où se trouve le document HTML, créez un fichier et sauvegardez-le sous le nom `styles.css`. L'extension `.css` indique que c'est un fichier CSS.
 
 Pour lier `styles.css` à `index.html` ajoutez la ligne suivante dans la section {{htmlelement("head")}} du document HTML :
 
@@ -184,7 +184,7 @@ span.special {
 }
 ```
 
-Comme vous pouvez bien l'imaginer, certaines classes s'appliquent à un grand nombre d'éléments et il n'est pas pensable de devoir éditer la feuille de style à chaque modification du document HTML. Les sélecteurs composé du nom de l'élément suivi de celui de la classe sont donc plutôt réservés aux situations où la règle ne s'applique qu'à un élément unique.
+Comme vous pouvez bien l'imaginer, certaines classes s'appliquent à un grand nombre d'éléments et il n'est pas pensable de devoir éditer la feuille de style à chaque modification du document HTML. Les sélecteurs composés du nom de l'élément suivi de celui de la classe sont donc plutôt réservés aux situations où la règle ne s'applique qu'à un élément unique.
 
 ## Style en fonction de la position
 
@@ -282,8 +282,8 @@ Pas de panique, cela peut sembler compliqué pour le moment — avec un peu de p
 
 Dans ce tutoriel nous avons vu plusieurs façons de mettre en forme un document grâce aux règles CSS. En progressant dans les leçons de ce cours, nous développerons ces connaissances.
 
-Vous en savez pourtant déjà assez pour : mettre en forme un texte ; utiliser différentes méthodes pour sélectionner les éléments HTML visés ; et recherchez les propriétés et les valeurs dans la documentation MDN.
+Vous en savez pourtant déjà assez pour : mettre en forme un texte ; utiliser différentes méthodes pour sélectionner les éléments HTML visés ; et rechercher les propriétés et les valeurs dans la documentation MDN.
 
-Dans la leçon suivante, nous étudirons comment CSS est structuré.
+Dans la leçon suivante, nous étudierons comment CSS est structuré.
 
 {{PreviousMenuNext("Learn/CSS/First_steps/What_is_CSS", "Learn/CSS/First_steps/How_CSS_is_structured", "Learn/CSS/First_steps")}}
